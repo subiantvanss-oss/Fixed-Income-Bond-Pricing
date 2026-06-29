@@ -1,4 +1,4 @@
-# Bond Pricing Analyzer
+# FIxed Income Bond Pricing
 
 A Python implementation of **Time Value of Money (TVM)** and **Coupon Bond Pricing** for fixed-income valuation using the Discounted Cash Flow (DCF) approach.
 
@@ -10,9 +10,11 @@ This project demonstrates how mathematical finance concepts can be translated in
 
 The price of a coupon bond is calculated as the present value of all future coupon payments and the principal repayment at maturity.
 
-[
+## Mathematical Model
+
+$$
 P=\sum_{t=1}^{n}\frac{C}{(1+y)^t}+\frac{F}{(1+y)^n}
-]
+$$
 
 Where:
 
