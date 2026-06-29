@@ -43,9 +43,9 @@ The Time Value of Money states that **one unit of currency today is worth more t
 
 If an investment grows at an annual interest rate (r),
 
-$
+$$
 FV = PV(1+r)^n
-$
+$$
 
 where
 
