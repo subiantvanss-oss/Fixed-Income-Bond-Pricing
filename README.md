@@ -23,7 +23,6 @@ A quantitative finance project implementing **Time Value of Money (TVM)** and **
 * Usage
 * Example Output
 * Future Improvements
-* References
 * Disclaimer
 
 ---
@@ -44,9 +43,9 @@ The Time Value of Money states that **one unit of currency today is worth more t
 
 If an investment grows at an annual interest rate (r),
 
-[
+$
 FV = PV(1+r)^n
-]
+$
 
 where
 
@@ -63,9 +62,9 @@ This equation describes how money compounds over discrete time periods.
 
 Rearranging the previous equation,
 
-[
+$
 PV=\frac{FV}{(1+r)^n}
-]
+$
 
 This equation discounts future cash flows back to today's value.
 
@@ -77,29 +76,29 @@ Every valuation model in fixed income is fundamentally based on this relationshi
 
 In financial markets, especially quantitative finance, interest is often modeled as compounding continuously.
 
-Starting from
+Starting from,
 
-[
+$
 FV = PV\left(1+\frac{r}{m}\right)^{mt}
-]
+$
 
-Taking the limit as
+Taking the limit as,
 
-[
+$
 m\rightarrow\infty
-]
+$
 
 gives
 
-[
+$
 FV=PVe^{rt}
-]
+$
 
 Therefore,
 
-[
+$
 PV=FVe^{-rt}
-]
+$
 
 where
 
@@ -123,9 +122,9 @@ The price of a coupon bond equals the present value of every coupon payment plus
 
 ## Mathematical Model
 
-[
+$
 P=\sum_{t=1}^{n}\frac{C}{(1+y)^t}+\frac{F}{(1+y)^n}
-]
+$
 
 where
 
@@ -212,14 +211,6 @@ Future versions of this project may include
 * Convexity
 * DV01
 * Interest Rate Sensitivity Analysis
-
----
-
-# References
-
-* John C. Hull — *Options, Futures, and Other Derivatives*
-* Frank J. Fabozzi — *Bond Markets, Analysis and Strategies*
-* Bodie, Kane & Marcus — *Investments*
 
 ---
 
