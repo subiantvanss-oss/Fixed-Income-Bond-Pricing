@@ -62,9 +62,7 @@ This equation describes how money compounds over discrete time periods.
 
 Rearranging the previous equation,
 
-$
-PV=\frac{FV}{(1+r)^n}
-$
+$$ PV=\frac{FV}{(1+r)^n} $$
 
 This equation discounts future cash flows back to today's value.
 
@@ -78,27 +76,19 @@ In financial markets, especially quantitative finance, interest is often modeled
 
 Starting from,
 
-$
-FV = PV\left(1+\frac{r}{m}\right)^{mt}
-$
+$$ FV = PV\left(1+\frac{r}{m}\right)^{mt} $$
 
 Taking the limit as,
 
-$
-m\rightarrow\infty
-$
+$$ m\rightarrow\infty $$
 
 gives
 
-$
-FV=PVe^{rt}
-$
+$$ FV=PVe^{rt} $$
 
 Therefore,
 
-$
-PV=FVe^{-rt}
-$
+$$ PV=FVe^{-rt} $$
 
 where
 
@@ -122,9 +112,9 @@ The price of a coupon bond equals the present value of every coupon payment plus
 
 ## Mathematical Model
 
-$
+$$
 P=\sum_{t=1}^{n}\frac{C}{(1+y)^t}+\frac{F}{(1+y)^n}
-$
+$$
 
 where
 
